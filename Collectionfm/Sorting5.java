@@ -1,10 +1,9 @@
-package CoreJavabySiddu.Collectionfm;
-
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class Sorting5 {
-                public static void main(String[] args) {
+        public static void main(String[] args) {
         ArrayList <String> enames = new ArrayList<String>();
         enames.add("Rahul");
         enames.add("Chetan");
@@ -12,7 +11,11 @@ public class Sorting5 {
         enames.add("Sonia");
         Collections.sort(enames);
         System.out.println(enames);
-        
+        Iterator itr =enames.iterator();
+        while (itr.hasNext()) {
+                System.out.println(itr.next());
+                
+        }
 
         }
 

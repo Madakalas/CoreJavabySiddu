@@ -10,7 +10,7 @@ public class Sorting3 {
         enames.add("Sonia");
         Collections.sort(enames);
         System.out.println(enames);
-        i=0;
+        int i=0;
         while(i<enames.size()-1){
             System.out.println(enames.get(i));
             i++;
