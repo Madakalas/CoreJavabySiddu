@@ -6,7 +6,7 @@ abstract class Siddu
 
     }
 }
-class Raja extends Siddu
+class Raja extends Optional
 {
     public static void main(String[] args) {
         Raja r = new Raja();

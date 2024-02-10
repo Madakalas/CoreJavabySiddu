@@ -1,4 +1,4 @@
-public class Inhe1 extends Siddu{
+public class Inhe1 extends Optional{
     private  int Acc_Bal;
     private String Acc_Name;
     private double Acc_Amt;
